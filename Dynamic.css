@@ -4,7 +4,7 @@
     --base-color: #612e2e;
     --text-color: #000000;
     --primary-color: #915050;
-    --secondary-color: #94b3cf;
+    --secondary-color: #e4ded2;
 }
 
 * {
@@ -27,9 +27,20 @@ h1,h2,h3 {
     font-family: Poppins, "Segoe UI", Tahoma,'Times New Roman', Times, serif;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    height: 7%;
+    width: 100%;
+    background-color: #74aac9;
+}
+
 nav {
-    margin: 1em auto 3em auto;
+    margin: auto 3em auto;
+    top: 0;
+    height: min(1000px, 100%);
     width: min(1000px, 100%);
+    align-items: center;
 }
 
 nav ul {
@@ -45,6 +56,10 @@ nav li:last-child {
     font-weight: bold;
 }
 
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+}
 
 nav a:hover {
     text-decoration: underline;
@@ -63,13 +78,6 @@ header, section {
     align-items: center;
     flex-wrap: wrap;
     gap: 3em;
-}
-
-header inm {
-    max-width: 100%;
-    border-radius: 1em;
-    object-fit: cover;
-    object-position: bottom;
 }
 
 .text-container {
