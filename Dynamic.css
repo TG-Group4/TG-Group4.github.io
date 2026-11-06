@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --base-color: #ffffff;
-    --text-color: #def3fd;
-    --primary-color: #adadad;
-    --secondary-color: #1d1a24;
+    --base-color: #612e2e;
+    --text-color: #000000;
+    --primary-color: #915050;
+    --secondary-color: #94b3cf;
 }
 
 * {
@@ -44,6 +44,7 @@ nav li:last-child {
     font-family: Poppins, "Segoe UI", Tahoma,'Times New Roman', Times, serif;
     font-weight: bold;
 }
+
 
 nav a:hover {
     text-decoration: underline;
